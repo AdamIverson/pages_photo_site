@@ -4,8 +4,9 @@ function Nav() {
   return (
     <div>
       <ul>navbar</ul>
-      <li>contact</li>
-      <li>about</li>
+      <li><a href="/">home</a></li>
+      <li><a href="/about">about</a></li>
+      <li><a href="/contact">contact</a></li>
     </div>
   );
 }

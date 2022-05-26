@@ -1,8 +1,9 @@
 import React from "react";
+import Image from "../Image/Image"
 
 function Home() {
   return (
-    <h1>Home</h1>
+    <div><Image /></div>
   )
 }
 

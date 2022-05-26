@@ -1,3 +1,11 @@
+html {
+  margin: 10%;
+}
+
+li {
+  list-style-type: none;
+}
+
 .App {
   text-align: center;
 }

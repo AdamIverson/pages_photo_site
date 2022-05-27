@@ -3,14 +3,15 @@ const pool = require("../modules/pool");
 const router = express.Router();
 
 router.get('/', (req, res) => {
+  console.log('test.router');
 
-  pool
-  .query (`SELECT * FROM "test";`)
-  .then ((results) => res.send(results.rows))
-  .catch ((error) => {
-    console.log('ERROR SELECTING ALL FROM "test"')
-    res.sendStatus(500)
+  // pool
+  // .query (`SELECT * FROM "test";`)
+  // .then ((results) => res.send(results.rows))
+  // .catch ((error) => {
+  //   console.log('ERROR SELECTING ALL FROM "test"')
+  //   res.sendStatus(500)
   })
-});
+// });
 
 module.exports = router;
